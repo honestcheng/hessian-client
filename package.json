@@ -1,0 +1,37 @@
+{
+  "name": "hessian-client",
+  "version": "0.0.1",
+  "description": "a simple hessian client, wrap the hessian.js, for personal use,only support hessian v1 now",
+  "main": "hessian.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:honestcheng/hessian-client.git"
+  },
+  "keywords": [
+    "hessian",
+    "client",
+    "rpc",
+	"protocol"
+  ],
+  "author": "Honest Cheng <chengshi945@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honestcheng/hessian-client/issues",
+    "email": "chengshi945@gmail.com"
+  },
+  "homepage": "https://github.com/honestcheng/hessian-client",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "chai": "~1.7.2",
+    "grunt-contrib-jshint": "0.3.x",
+    "grunt-contrib-clean": "0.4.x",
+    "grunt-contrib-watch": "0.3.x"
+  },
+  "dependencies": {
+    "request": "~2.37.0",
+    "hessian.js": "~0.5.1"
+  }
+}
