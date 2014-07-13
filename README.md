@@ -5,7 +5,7 @@ a simple hessian client, wrap the hessian.js, for personal use,only support hess
 
 ## Installation
 
-  npm install hessian-client 
+[![NPM](https://nodei.co/npm/hessian-client.png)](https://nodei.co/npm/hessian-client/) 
 
 
 ## Usage
